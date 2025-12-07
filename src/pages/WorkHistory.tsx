@@ -50,9 +50,6 @@ const workEvents = [
   },
 ];
 
-// --- Styled Components ---
-// (PageContainer, ContentWrapper, and Title remain the same)
-
 const PageContainer = styled.div`
   min-height: 100vh;
   padding: 8rem 2rem 4rem;
@@ -61,6 +58,9 @@ const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media (max-width: 768px) {
+    padding-top: 12rem;
+  }
 `;
 
 const ContentWrapper = styled.div`

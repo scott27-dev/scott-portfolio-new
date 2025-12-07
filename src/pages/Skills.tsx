@@ -9,6 +9,9 @@ const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media (max-width: 768px) {
+    padding-top: 12rem;
+  }
 `;
 
 const ContentWrapper = styled.div`
